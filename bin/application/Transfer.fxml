@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Transfer">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="610.0" layoutX="-5.0" opacity="0.33" pickOnBounds="true">
+         <image>
+            <Image url="@../../Img/money-transfer-Mobile-banking-business-buy-communication-concept-1445247-pxhere.com-532d497dd58d4b609f55f58d01066bca.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="SaccNumtf" layoutX="265.0" layoutY="89.0" prefHeight="26.0" prefWidth="216.0" />
+      <Text layoutX="101.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sender Account Number :" wrappingWidth="147.19999999999982">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="226.0" layoutY="14.0" prefHeight="35.0" prefWidth="147.0" text="Transfer Screen">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="237.0" layoutY="250.0" mnemonicParsing="false" onAction="#transfer" prefHeight="35.0" prefWidth="90.0" text="Transfer">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="349.0" mnemonicParsing="false" onAction="#Home" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="542.0" layoutY="349.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="101.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receiver Accout Number :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="RaccNumtf" layoutX="265.0" layoutY="140.0" prefHeight="26.0" prefWidth="216.0" />
+      <Text layoutX="101.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transfer Amount :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="amounttf" layoutX="265.0" layoutY="187.0" prefHeight="26.0" prefWidth="216.0" />
+      <Label fx:id="mylabel" layoutX="77.0" layoutY="306.0" prefHeight="86.0" prefWidth="464.0" textFill="#12c715">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

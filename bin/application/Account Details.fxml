@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AccountDetails">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="610.0" layoutX="-10.0" opacity="0.33" pickOnBounds="true">
+         <image>
+            <Image url="@../../Img/details-complex-like-puzzle-pictured-as-word-details-puzzle-pieces-to-show-details-can-be-difficult-needs-164222155.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="AccNumtf" layoutX="263.0" layoutY="144.0" prefHeight="26.0" prefWidth="216.0" />
+      <Text layoutX="101.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number :" wrappingWidth="147.19999999999982">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="226.0" layoutY="14.0" prefHeight="35.0" prefWidth="147.0" text="Account Details">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="224.0" layoutY="206.0" mnemonicParsing="false" onAction="#Check" prefHeight="35.0" prefWidth="142.0" text="Check Account Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="349.0" mnemonicParsing="false" onAction="#Home" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="542.0" layoutY="349.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
